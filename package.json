@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "build": "bun build src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "5.9.1",
+    "hono": "^4.0.4"
+  },
+  "devDependencies": {
+    "prisma": "^5.9.1"
+  }
+}
